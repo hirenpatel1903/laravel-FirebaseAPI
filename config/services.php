@@ -31,14 +31,14 @@ return [
     ],
 
     'firebase' => [
-        'api_key' => 'AIzaSyAGu6NvA0LZORZqedOCSNFkGpTH_HhQrOQ',
-        'auth_domain' => 'laravelfirebase-2d6e3.firebaseapp.com',
-        'database_url' => 'https://laravelfirebase-2d6e3.firebaseapp.com',
-        'project_id' => 'laravelfirebase-2d6e3',
-        'storage_bucket' => 'laravelfirebase-2d6e3.appspot.com',
-        'messaging_sender_id' => '142538320298',
-        'app_id' => '1:142538320298:web:2091acec5d6139f2f3a3d3',
-        'measurement_id' => 'G-0G20K48BVX',
+        'apiKey' => "AIzaSyAZA01ZazTQCDMZqASsNmtP-APRGhDcUf4",
+        'authDomain' => "zanyregister.firebaseapp.com",
+        'databaseURL' => "https://zanyregister.firebaseio.com",
+        'projectId' => "zanyregister",
+        'storageBucket' => "zanyregister.appspot.com",
+        'messagingSenderId' => "672841790808",
+        'appId' => "1:672841790808:web:96db5872f2939744b3a12d",
+        'measurementId' => "G-KX34RN85MH"
     ],
 
 ];

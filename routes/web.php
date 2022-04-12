@@ -15,4 +15,16 @@ use App\Http\Controllers\PostController;
 */
 
 
+/* Clear Cache */
+Route::get('/clear-cache', function() {
+    Artisan::call('config:cache');
+    Artisan::call('config:clear');
+    Artisan::call('cache:clear');
+    Artisan::call('route:clear');
+    Artisan::call('view:clear');
+    Artisan::call('storage:link');
+    return "All cache cleared!";
+});
+
+
 Route::get('post', [PostController::class, 'index'])->name('post.inedx');
